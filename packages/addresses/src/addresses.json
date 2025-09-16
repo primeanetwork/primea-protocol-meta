@@ -1,0 +1,85 @@
+{
+    "meta": {
+      "project": "Primea DEX",
+      "version": "RC1",
+      "generatedAt": "2025-09-15T00:00:00Z",
+      "notes": ["Fill placeholders after deployment."]
+    },
+    "chains": {
+      "698369": {
+        "chainId": 698369,
+        "name": "Primea Mainnet",
+        "rpcUrls": [],
+        "explorer": "",
+        "nativeCurrency": { "name": "Primea Gold", "symbol": "GOLDPN", "decimals": 18 },
+        "wrappedNative": { "symbol": "wGOLDPN", "address": null, "createdBlock": null },
+        "multicall3": { "address": null, "createdBlock": null },
+        "tokens": {
+          "GOLDPN": { "address": null, "symbol": "GOLDPN", "name": "Primea Gold", "decimals": 18 },
+          "USDP":   { "address": null, "symbol": "USDP",   "name": "Primea Dollar", "decimals": 18 },
+          "PRIM":   { "address": null, "symbol": "PRIM",   "name": "Primea Governance", "decimals": 18 }
+        },
+        "registry": {
+          "tokenRegistry":       { "address": null, "createdBlock": null, "deploymentTx": null },
+          "governedPoolFactory": { "address": null, "createdBlock": null, "deploymentTx": null }
+        },
+        "v3": {
+          "core": {
+            "factory":      { "address": null, "createdBlock": null, "deploymentTx": null },
+            "poolDeployer": { "address": null, "createdBlock": null, "deploymentTx": null }
+          },
+          "periphery": {
+            "nonfungiblePositionManager": { "address": null, "createdBlock": null, "deploymentTx": null },
+            "swapRouter02":               { "address": null, "createdBlock": null, "deploymentTx": null },
+            "quoterV2":                   { "address": null, "createdBlock": null, "deploymentTx": null }
+          }
+        },
+        "routers": {
+          "universalRouter": { "address": null, "createdBlock": null, "deploymentTx": null },
+          "permit2":         { "address": null, "createdBlock": null, "deploymentTx": null }
+        },
+        "aux": {
+          "tickLens": null,
+          "nfpManagerHelper": null
+        }
+      },
+      "1698369": {
+        "chainId": 1698369,
+        "name": "Primea Testnet",
+        "rpcUrls": [],
+        "explorer": "",
+        "nativeCurrency": { "name": "Primea Gold (Testnet)", "symbol": "GOLDPN", "decimals": 18 },
+        "wrappedNative": { "symbol": "wGOLDPN", "address": null, "createdBlock": null },
+        "multicall3": { "address": null, "createdBlock": null },
+        "tokens": {
+          "GOLDPN": { "address": null, "symbol": "GOLDPN", "name": "Primea Gold", "decimals": 18 },
+          "USDP":   { "address": null, "symbol": "USDP",   "name": "Primea Dollar", "decimals": 18 },
+          "PRIM":   { "address": null, "symbol": "PRIM",   "name": "Primea Governance", "decimals": 18 }
+        },
+        "registry": {
+          "tokenRegistry":       { "address": null, "createdBlock": null, "deploymentTx": null },
+          "governedPoolFactory": { "address": null, "createdBlock": null, "deploymentTx": null }
+        },
+        "v3": {
+          "core": {
+            "factory":      { "address": null, "createdBlock": null, "deploymentTx": null },
+            "poolDeployer": { "address": null, "createdBlock": null, "deploymentTx": null }
+          },
+          "periphery": {
+            "nonfungiblePositionManager": { "address": null, "createdBlock": null, "deploymentTx": null },
+            "swapRouter02":               { "address": null, "createdBlock": null, "deploymentTx": null },
+            "quoterV2":                   { "address": null, "createdBlock": null, "deploymentTx": null }
+          }
+        },
+        "routers": {
+          "universalRouter": { "address": null, "createdBlock": null, "deploymentTx": null },
+          "permit2":         { "address": null, "createdBlock": null, "deploymentTx": null }
+        },
+        "aux": {
+          "tickLens": null,
+          "nfpManagerHelper": null
+        }
+      }
+    }
+  }
+  
