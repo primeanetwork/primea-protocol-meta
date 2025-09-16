@@ -1,0 +1,9 @@
+# node
+node_modules/
+dist/
+*.log
+# editor
+.idea/
+.vscode/
+# misc
+.DS_Store

@@ -1,0 +1,17 @@
+{
+  "name": "Primea Testnet Base Tokens",
+  "logoURI": "",
+  "keywords": ["primea", "testnet", "base", "whitelisted"],
+  "timestamp": "2025-09-15T00:00:00Z",
+  "version": { "major": 0, "minor": 0, "patch": 1 },
+  "tags": {
+    "base": { "name": "Base Tokens", "description": "Core routing/quoting assets" },
+    "governance": { "name": "Governance", "description": "Primea governance token" },
+    "stablecoin": { "name": "Stablecoin", "description": "Stable value token" }
+  },
+  "tokens": [
+    { "chainId": 1698369, "address": null, "name": "Primea Gold", "symbol": "GOLDPN", "decimals": 18, "logoURI": "", "tags": ["base"] },
+    { "chainId": 1698369, "address": null, "name": "Primea Dollar", "symbol": "USDP",   "decimals": 18, "logoURI": "", "tags": ["base","stablecoin"] },
+    { "chainId": 1698369, "address": null, "name": "Primea Governance", "symbol": "PRIM", "decimals": 18, "logoURI": "", "tags": ["base","governance"] }
+  ]
+}
