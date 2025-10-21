@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2025-10-20T00:00:00Z",
+  "networks": {
+    "1698369": {
+      "name": "Primea Testnet",
+      "wrappedNative": "0xREPLACE_WRAPPED_GOLDPN",
+      "usdp": "0xREPLACE_USDP",
+      "prim": "0xREPLACE_PRIM",
+      "governedPoolFactory": "0xREPLACE_GOVERNED_FACTORY",
+      "tokenRegistry": "0xREPLACE_TOKEN_REGISTRY",
+      "multicall3": "0xREPLACE_MULTICALL3",
+      "permit2": "0xREPLACE_PERMIT2",
+      "uniswap": {
+        "v3CoreFactory": "0xREPLACE_V3_CORE_FACTORY",
+        "v3PeripheryRouter": "0xREPLACE_V3_PERIPHERY_ROUTER",
+        "positionManager": "0xREPLACE_NPM"
+      }
+    },
+    "698369": {
+      "name": "Primea Mainnet",
+      "wrappedNative": "0xREPLACE_WRAPPED_GOLDPN",
+      "usdp": "0xREPLACE_USDP",
+      "prim": "0xREPLACE_PRIM",
+      "governedPoolFactory": "0xREPLACE_GOVERNED_FACTORY",
+      "tokenRegistry": "0xREPLACE_TOKEN_REGISTRY",
+      "multicall3": "0xREPLACE_MULTICALL3",
+      "permit2": "0xREPLACE_PERMIT2",
+      "uniswap": {
+        "v3CoreFactory": "0xREPLACE_V3_CORE_FACTORY",
+        "v3PeripheryRouter": "0xREPLACE_V3_PERIPHERY_ROUTER",
+        "positionManager": "0xREPLACE_NPM"
+      }
+    }
+  }
+}
